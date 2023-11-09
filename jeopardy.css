@@ -1,0 +1,71 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#jeopardy{
+  
+  color: white;
+}
+
+#answer{
+  color: red;
+}
+
+h1{
+  text-align: center;
+}
+
+.question{
+  background-color: yellow;
+}
+
+
+#start{
+  align-items: center;
+  margin: 0;
+  top: 10%;
+  left: 49%;
+  position: absolute;
+}
+
+#spin-container{
+  position: fixed;
+  left: 50%;
+  top: 20%;
+}
+
+
+/* hover functionality for each cell */
+td:hover{
+background-color: aqua;
+}
+
+
+/* table styling */
+table, th, td {
+  border: 3px solid black;
+  margin-top: 500px;
+  position: relative;
+
+}
+
+#jeopardy table {
+  margin: 0 auto;
+  margin-top: 150px;
+  top: 20%;
+  background-color: blue;
+}
+
+#jeopardy td{
+  width: 15%;
+}
+
+#jeopardy-tablebody td{
+  width: 18%;
+  height: 15%;
+}
+
